@@ -200,8 +200,7 @@ def make_send_task_tool(host_agent: HostAgent):
 def build_react_agent(host_agent: HostAgent):
     # Create the top-level LLM
     llm = ChatDeepSeek(
-        model="deepseek-chat",
-        api_key="sk-893dde948ece417a94b24d5c7e56a802"
+        model="deepseek-chat"
     )
 
     # REDIS_URI = "redis://localhost:6379"
